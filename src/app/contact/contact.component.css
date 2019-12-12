@@ -1,0 +1,74 @@
+body {
+    background: #333;
+  }
+  .socicons-list {
+      list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       height: 103vh;
+    margin-left: 12em;
+    margin-top: -1em;
+  }
+  .socicons-list li {
+    margin: 30px 10px;
+    
+  }
+  .socicons-list li a {
+    text-decoration: none;
+    padding: 30px;
+      font-size: 30px;
+    border-radius: 50%;
+    color: #fff;
+      background-color: #f1f1f1;
+    transition: all ease-in-out 150ms;
+  }
+  .socicons-list li a:hover {
+  text-shadow: 0 5px 10px #212121;
+  }
+  
+  .socicons-list li:nth-child(1) a {
+      background-color: #3e5b98;
+  }
+  .socicons-list li:nth-child(2) a {
+      background-color: #c13584;
+  }
+  .socicons-list li:nth-child(3) a {
+      background-color: #4da7de;
+  }
+  .socicons-list li:nth-child(4) a {
+      background-color: #dd4b39;
+  }
+  .socicons-list li:nth-child(5) a {
+      background-color: #1769ff;
+  }
+  
+  
+  
+ 
+/* Wide */
+
+@media screen and (min-width: 961px) and (max-width: 1880px) {
+
+  /* Basic */
+
+      body, input, textarea, select {
+          font-size: 17pt;
+              
+      }
+
+  /* Header */
+
+      #header {
+          width: 300px;
+      }
+
+
+
+  /* Main */
+
+      #main {
+          margin-left: 300px;
+      }
+
+}
